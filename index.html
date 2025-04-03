@@ -1,31 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Configuración</title>
+
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    
+
     <!-- Fuente de Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Jockey+One&display=swap" rel="stylesheet">
+
 </head>
-<body>
+
+<body class="body_configuracion">
 
     <!-- Flecha de regreso -->
-    <a href="index.html" class="back-button">
+    <a href="index.html" class="back-button_configuracion">
         <img src="flecha.png" alt="Regresar">
     </a>
-    
+
     <!-- Logo en SVG -->
-    <a href="index.html" class="logo-de-proyecto">
-        <img src="ima.svg" alt="Logo" class="svg-logo"> 
+    <a href="index.html" class="logo-de-proyecto_configuracion">
+        <img src="ima.svg" alt="Logo" class="svg-logo_configuracion"> 
     </a>
 
     <!-- Barra lateral con imágenes PNG -->
-    <div class="sidebar">
+    <div class="sidebar_configuracion">
         <a href="index.html" title="Notificaciones">
             <img src="home icon.png" alt="Notificaciones">
         </a>
@@ -52,35 +57,34 @@
         </a>
     </div>
 
-    <div class="content">
-        <h2 class="title">Configuración</h2>
-        
-      
-        <div class="menu">
-            <div class="menu-item" onclick="abrirPanel('cuenta')">
-                <img src="perfil2.png" alt="Cuenta" class="icono"> Cuenta
+    <div class="content_configuracion">
+        <h2 class="title_configuracion">Configuración</h2>
+
+        <div class="menu_configuracion">
+            <div class="menu-item_configuracion" onclick="abrirPanel('cuenta')">
+                <img src="perfil2.png" alt="Cuenta" class="icono_configuracion"> Cuenta
             </div>
-            <div class="menu-item" onclick="abrirPanel('ajustar')">
-                <img src="ajustes.png" alt="Ajustar" class="icono"> Ajustar campos
+            <div class="menu-item_configuracion" onclick="abrirPanel('ajustar')">
+                <img src="ajustes.png" alt="Ajustar" class="icono_configuracion"> Ajustar campos
             </div>
-            <div class="menu-item" onclick="abrirPanel('notificaciones')">
-                <img src="campana2.png" alt="Notificaciones" class="icono"> Notificaciones
+            <div class="menu-item_configuracion" onclick="abrirPanel('notificaciones')">
+                <img src="campana2.png" alt="Notificaciones" class="icono_configuracion"> Notificaciones
             </div>
-            <div class="menu-item" onclick="abrirPanel('ayuda')">
-                <img src="preunta.png" alt="Ayuda" class="icono"> Ayuda
+            <div class="menu-item_configuracion" onclick="abrirPanel('ayuda')">
+                <img src="preunta.png" alt="Ayuda" class="icono_configuracion"> Ayuda
             </div>
-            <div class="menu-item" onclick="abrirPanel('terminos')">
-                <img src="exclamacion.png" alt="Términos" class="icono"> Términos y condiciones
+            <div class="menu-item_configuracion" onclick="abrirPanel('terminos')">
+                <img src="exclamacion.png" alt="Términos" class="icono_configuracion"> Términos y condiciones
             </div>
-            <div class="menu-item" onclick="abrirPanel('cambiar')">
-                <img src="cambiar de cuenta.png" alt="Cambiar cuenta" class="icono"> Cambiar cuenta
+            <div class="menu-item_configuracion" onclick="abrirPanel('cambiar')">
+                <img src="cambiar de cuenta.png" alt="Cambiar cuenta" class="icono_configuracion"> Cambiar cuenta
             </div>
-            <div class="menu-item" onclick="confirmarCierreSesion()">
+            <div class="menu-item_configuracion" onclick="confirmarCierreSesion()">
                 <img src="salida.png" alt="Cerrar sesión"> Cerrar sesión
             </div>
         </div>
     </div>
-    
-    
+
 </body>
+
 </html>
